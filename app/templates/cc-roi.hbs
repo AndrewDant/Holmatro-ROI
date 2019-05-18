@@ -26,7 +26,7 @@
 			{{#each rowList as |row|}}
 			<tr>
 				{{#each row as |roi|}}
-					<td>{{ roi }}</td>
+					<td class="{{ roi-cell-class roi}}">{{ roi }}</td>
 				{{/each}}
 			</tr>
 			{{/each}}
