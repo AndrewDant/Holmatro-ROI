@@ -58,6 +58,13 @@ export default Controller.extend({
 	graphOptions: {
 		legend: {
 			display: false
+		},
+		scales : {
+			yAxes : [{
+				ticks : {
+					beginAtZero : true
+				}
+			}]
 		}
 	}
 });
