@@ -17,6 +17,7 @@ You will need the following things properly installed on your computer.
 * `git clone <repository-url>` this repository
 * `cd roi-app`
 * `npm install`
+* 'cd cordova && npm install'
 
 ## Running / Development
 
