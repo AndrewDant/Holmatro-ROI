@@ -32,4 +32,11 @@
 			{{/each}}
 		</tbody>
 	</table>
+
+	<div class="form-group">
+		<label for="catsPerInput">Graph cats/week</label>
+		{{input type="text" class="form-control" id="catsPerInput" value=graphCatsPer}}
+	</div>
+
+	{{ember-chart type="line" data=graphData options=graphOptions}}
 </div>
